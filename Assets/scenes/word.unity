@@ -4651,7 +4651,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11487176, guid: cad4348acca904a24b56f30311cb0784, type: 3}
-  mSpriteName: btn_8
+  mSpriteName: btn_12
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!1001 &1717561823
@@ -4661,6 +4661,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1772253544}
     m_Modifications:
+    - target: {fileID: 100000, guid: c2456db68160e4f6081ce0a1f31c3218, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c2456db68160e4f6081ce0a1f31c3218, type: 2}
       propertyPath: m_LocalPosition.x
       value: 101.9
@@ -4748,10 +4752,6 @@ PrefabInstance:
     - target: {fileID: 11400000, guid: c2456db68160e4f6081ce0a1f31c3218, type: 2}
       propertyPath: mModifier
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: c2456db68160e4f6081ce0a1f31c3218, type: 2}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2456db68160e4f6081ce0a1f31c3218, type: 2}
