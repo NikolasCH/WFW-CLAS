@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "509148647402",
+    "firebase_url": "https://words-from-word-classic.firebaseio.com",
+    "project_id": "words-from-word-classic",
+    "storage_bucket": "words-from-word-classic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509148647402:android:4c5ec3a280fb07dcb7ec93",
+        "android_client_info": {
+          "package_name": "com.sayrex.wfw4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509148647402-5tl26fc299g5sbb69eppd74hfj1v6aog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvimzf3xhjuM2ir_grXAcwR99MwAcuzI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509148647402-5tl26fc299g5sbb69eppd74hfj1v6aog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

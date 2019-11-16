@@ -1,0 +1,276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c58705f215734483496dce8c227ce840, type: 3}
+  m_Name: AN_Settings
+  m_EditorClassIdentifier: 
+  LastVersionCode: 2019.18
+  UseUnityJarResolver: 1
+  UnityJarResolverVersion: v1.2.125.0
+  ManifestManagement: 1
+  LogLevel:
+    Info: 1
+    Warning: 1
+    Error: 1
+  WTFLogging: 0
+  PreferredImagesStorage: 1
+  Vending: 1
+  Contacts: 0
+  Social: 0
+  GooglePlay: 1
+  CameraAndGallery: 0
+  MediaPlayer: 0
+  LocalNotifications: 1
+  SkipPermissionsDialog: 0
+  RSAPublicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqm9uQzL6ZjNdln9s0hrBP/Dm4Jwx/t1ynoZyFn7H9FeN64FAj49A/lI1k3bn2M/CPpiBE9FS2tpRGXUf3IEzJ1IsMcV0aRg3yMZkktw/USMYPx0RzzjWLnT3e4ywaGXHIL+T8Rqm0Z/M5hOhc4z4DcrSKwjATEQTq9UrNRBtilA82VntoM4RvoYIWjj3p7FQQzSCY33idfyWb6V5LW0QGR+CBaRPcp59hZNtdT/Qzd9mZ+w5HY3wZjTtt8aHhZFh2a7T4jNyDRvjpXBM8f3hAn3mS0AFrtQToijjFC3yWIcNHCQKK9ipZvmuOF8Bk0QVUhXqLjVNg0sMWJSROy0iSwIDAQAB
+  InAppProducts:
+  - m_Type: inapp
+    m_Sku: wfw2_p1
+    m_Title: New Product
+    m_Description: 
+    m_FreeTrialPeriod: 
+    m_IconUrl: 
+    m_IntroductoryPrice: 
+    m_IntroductoryPriceAmountMicros: 0
+    m_IntroductoryPriceCycles: 
+    m_IntroductoryPricePeriod: 
+    m_OriginalPrice: 
+    m_OriginalPriceAmountMicros: 0
+    m_Price: 
+    m_PriceAmountMicros: 0
+    m_PriceCurrencyCode: 
+    m_SubscriptionPeriod: 
+    m_IsRewarded: 0
+    m_OriginalJson: 
+    m_IsConsumable: 1
+    m_SkuDetailsHashId: 0
+  - m_Type: inapp
+    m_Sku: wfw2_p2
+    m_Title: New Product
+    m_Description: 
+    m_FreeTrialPeriod: 
+    m_IconUrl: 
+    m_IntroductoryPrice: 
+    m_IntroductoryPriceAmountMicros: 0
+    m_IntroductoryPriceCycles: 
+    m_IntroductoryPricePeriod: 
+    m_OriginalPrice: 
+    m_OriginalPriceAmountMicros: 0
+    m_Price: 
+    m_PriceAmountMicros: 0
+    m_PriceCurrencyCode: 
+    m_SubscriptionPeriod: 
+    m_IsRewarded: 0
+    m_OriginalJson: 
+    m_IsConsumable: 1
+    m_SkuDetailsHashId: 0
+  - m_Type: inapp
+    m_Sku: wfw2_p3
+    m_Title: New Product
+    m_Description: 
+    m_FreeTrialPeriod: 
+    m_IconUrl: 
+    m_IntroductoryPrice: 
+    m_IntroductoryPriceAmountMicros: 0
+    m_IntroductoryPriceCycles: 
+    m_IntroductoryPricePeriod: 
+    m_OriginalPrice: 
+    m_OriginalPriceAmountMicros: 0
+    m_Price: 
+    m_PriceAmountMicros: 0
+    m_PriceCurrencyCode: 
+    m_SubscriptionPeriod: 
+    m_IsRewarded: 0
+    m_OriginalJson: 
+    m_IsConsumable: 1
+    m_SkuDetailsHashId: 0
+  - m_Type: inapp
+    m_Sku: wfw2_p4
+    m_Title: New Product
+    m_Description: 
+    m_FreeTrialPeriod: 
+    m_IconUrl: 
+    m_IntroductoryPrice: 
+    m_IntroductoryPriceAmountMicros: 0
+    m_IntroductoryPriceCycles: 
+    m_IntroductoryPricePeriod: 
+    m_OriginalPrice: 
+    m_OriginalPriceAmountMicros: 0
+    m_Price: 
+    m_PriceAmountMicros: 0
+    m_PriceCurrencyCode: 
+    m_SubscriptionPeriod: 
+    m_IsRewarded: 0
+    m_OriginalJson: 
+    m_IsConsumable: 1
+    m_SkuDetailsHashId: 0
+  - m_Type: inapp
+    m_Sku: wfw2_p5
+    m_Title: New Product
+    m_Description: 
+    m_FreeTrialPeriod: 
+    m_IconUrl: 
+    m_IntroductoryPrice: 
+    m_IntroductoryPriceAmountMicros: 0
+    m_IntroductoryPriceCycles: 
+    m_IntroductoryPricePeriod: 
+    m_OriginalPrice: 
+    m_OriginalPriceAmountMicros: 0
+    m_Price: 
+    m_PriceAmountMicros: 0
+    m_PriceCurrencyCode: 
+    m_SubscriptionPeriod: 
+    m_IsRewarded: 0
+    m_OriginalJson: 
+    m_IsConsumable: 1
+    m_SkuDetailsHashId: 0
+  - m_Type: inapp
+    m_Sku: page_1
+    m_Title: New Product
+    m_Description: 
+    m_FreeTrialPeriod: 
+    m_IconUrl: 
+    m_IntroductoryPrice: 
+    m_IntroductoryPriceAmountMicros: 0
+    m_IntroductoryPriceCycles: 
+    m_IntroductoryPricePeriod: 
+    m_OriginalPrice: 
+    m_OriginalPriceAmountMicros: 0
+    m_Price: 
+    m_PriceAmountMicros: 0
+    m_PriceCurrencyCode: 
+    m_SubscriptionPeriod: 
+    m_IsRewarded: 0
+    m_OriginalJson: 
+    m_IsConsumable: 0
+    m_SkuDetailsHashId: 0
+  - m_Type: inapp
+    m_Sku: page_2
+    m_Title: New Product
+    m_Description: 
+    m_FreeTrialPeriod: 
+    m_IconUrl: 
+    m_IntroductoryPrice: 
+    m_IntroductoryPriceAmountMicros: 0
+    m_IntroductoryPriceCycles: 
+    m_IntroductoryPricePeriod: 
+    m_OriginalPrice: 
+    m_OriginalPriceAmountMicros: 0
+    m_Price: 
+    m_PriceAmountMicros: 0
+    m_PriceCurrencyCode: 
+    m_SubscriptionPeriod: 
+    m_IsRewarded: 0
+    m_OriginalJson: 
+    m_IsConsumable: 0
+    m_SkuDetailsHashId: 0
+  - m_Type: inapp
+    m_Sku: page_3
+    m_Title: New Product
+    m_Description: 
+    m_FreeTrialPeriod: 
+    m_IconUrl: 
+    m_IntroductoryPrice: 
+    m_IntroductoryPriceAmountMicros: 0
+    m_IntroductoryPriceCycles: 
+    m_IntroductoryPricePeriod: 
+    m_OriginalPrice: 
+    m_OriginalPriceAmountMicros: 0
+    m_Price: 
+    m_PriceAmountMicros: 0
+    m_PriceCurrencyCode: 
+    m_SubscriptionPeriod: 
+    m_IsRewarded: 0
+    m_OriginalJson: 
+    m_IsConsumable: 0
+    m_SkuDetailsHashId: 0
+  - m_Type: inapp
+    m_Sku: page_4
+    m_Title: New Product
+    m_Description: 
+    m_FreeTrialPeriod: 
+    m_IconUrl: 
+    m_IntroductoryPrice: 
+    m_IntroductoryPriceAmountMicros: 0
+    m_IntroductoryPriceCycles: 
+    m_IntroductoryPricePeriod: 
+    m_OriginalPrice: 
+    m_OriginalPriceAmountMicros: 0
+    m_Price: 
+    m_PriceAmountMicros: 0
+    m_PriceCurrencyCode: 
+    m_SubscriptionPeriod: 
+    m_IsRewarded: 0
+    m_OriginalJson: 
+    m_IsConsumable: 0
+    m_SkuDetailsHashId: 0
+  - m_Type: inapp
+    m_Sku: page_5
+    m_Title: New Product
+    m_Description: 
+    m_FreeTrialPeriod: 
+    m_IconUrl: 
+    m_IntroductoryPrice: 
+    m_IntroductoryPriceAmountMicros: 0
+    m_IntroductoryPriceCycles: 
+    m_IntroductoryPricePeriod: 
+    m_OriginalPrice: 
+    m_OriginalPriceAmountMicros: 0
+    m_Price: 
+    m_PriceAmountMicros: 0
+    m_PriceCurrencyCode: 
+    m_SubscriptionPeriod: 
+    m_IsRewarded: 0
+    m_OriginalJson: 
+    m_IsConsumable: 0
+    m_SkuDetailsHashId: 0
+  - m_Type: inapp
+    m_Sku: page_6
+    m_Title: New Product
+    m_Description: 
+    m_FreeTrialPeriod: 
+    m_IconUrl: 
+    m_IntroductoryPrice: 
+    m_IntroductoryPriceAmountMicros: 0
+    m_IntroductoryPriceCycles: 
+    m_IntroductoryPricePeriod: 
+    m_OriginalPrice: 
+    m_OriginalPriceAmountMicros: 0
+    m_Price: 
+    m_PriceAmountMicros: 0
+    m_PriceCurrencyCode: 
+    m_SubscriptionPeriod: 
+    m_IsRewarded: 0
+    m_OriginalJson: 
+    m_IsConsumable: 0
+    m_SkuDetailsHashId: 0
+  - m_Type: inapp
+    m_Sku: page_7
+    m_Title: New Product
+    m_Description: 
+    m_FreeTrialPeriod: 
+    m_IconUrl: 
+    m_IntroductoryPrice: 
+    m_IntroductoryPriceAmountMicros: 0
+    m_IntroductoryPriceCycles: 
+    m_IntroductoryPricePeriod: 
+    m_OriginalPrice: 
+    m_OriginalPriceAmountMicros: 0
+    m_Price: 
+    m_PriceAmountMicros: 0
+    m_PriceCurrencyCode: 
+    m_SubscriptionPeriod: 
+    m_IsRewarded: 0
+    m_OriginalJson: 
+    m_IsConsumable: 0
+    m_SkuDetailsHashId: 0
+  Licensing: 1
+  GooglePlayGamesAPI: 1

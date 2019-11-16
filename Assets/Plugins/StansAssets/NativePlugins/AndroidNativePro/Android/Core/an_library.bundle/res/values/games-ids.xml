@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+  <!-- app_id -->
+  <string name="app_id" translatable="false">657043844515</string>
+  <!-- package_name -->
+  <string name="package_name" translatable="false">com.sayrex.wfw4</string>
+  <!-- achievement 100 звёзд! -->
+  <string name="achievement_100" translatable="false">CgkIo9v11o8TEAIQAQ</string>
+  <!-- achievement 200 звёзд! -->
+  <string name="achievement_200" translatable="false">CgkIo9v11o8TEAIQAg</string>
+  <!-- achievement 300 звёзд! -->
+  <string name="achievement_300" translatable="false">CgkIo9v11o8TEAIQAw</string>
+  <!-- achievement 400 звёзд! -->
+  <string name="achievement_400" translatable="false">CgkIo9v11o8TEAIQBA</string>
+  <!-- achievement 500 звёзд! -->
+  <string name="achievement_500" translatable="false">CgkIo9v11o8TEAIQBQ</string>
+  <!-- achievement 600 звёзд! -->
+  <string name="achievement_600" translatable="false">CgkIo9v11o8TEAIQBw</string>
+  <!-- achievement Накопите 1000 монет. -->
+  <string name="achievement__1000_." translatable="false">CgkIo9v11o8TEAIQCA</string>
+  <!-- achievement Накопите 2000 монет. -->
+  <string name="achievement__2000_." translatable="false">CgkIo9v11o8TEAIQCQ</string>
+  <!-- achievement Накопите 3000 монет. -->
+  <string name="achievement__3000_." translatable="false">CgkIo9v11o8TEAIQCg</string>
+  <!-- achievement Накопите 4000 монет. -->
+  <string name="achievement__4000_." translatable="false">CgkIo9v11o8TEAIQCw</string>
+  <!-- achievement Накопите 5000 монет. -->
+  <string name="achievement__5000_." translatable="false">CgkIo9v11o8TEAIQDA</string>
+  <!-- leaderboard Звёзды -->
+  <string name="leaderboard" translatable="false">CgkIo9v11o8TEAIQAA</string>
+</resources>
