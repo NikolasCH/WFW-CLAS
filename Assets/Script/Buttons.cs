@@ -65,6 +65,9 @@ public class Buttons : Main {
 			if(gameObject.name=="Panel_buy")
 				panel_buy_up();
 
+			if(gameObject.name=="Sharing")
+				SX.SendMessage("Sharing");   
+
 			if(gameObject.name=="Panel_buys")
 				panel_buy_ups();
 

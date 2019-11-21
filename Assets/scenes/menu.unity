@@ -620,6 +620,7 @@ GameObject:
   - component: {fileID: 793637948}
   - component: {fileID: 793637947}
   - component: {fileID: 793637946}
+  - component: {fileID: 793637950}
   m_Layer: 0
   m_Name: SX
   m_TagString: Untagged
@@ -693,6 +694,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RevardsButton: {fileID: 0}
+--- !u!114 &793637950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793637944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97ec00fdb5cdf1d4888eb9ff7a877f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1185110154
 GameObject:
   m_ObjectHideFlags: 0
