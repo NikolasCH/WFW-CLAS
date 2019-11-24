@@ -19,26 +19,26 @@ public class SX_Sharing : MonoBehaviour
     private UM_ShareDialogBuilder MakeSharingBuilder()
     {
         var builder = new UM_ShareDialogBuilder();
-        builder.SetText("Помоги отгадать слова!");
+        builder.SetText("Помоги, собрать загаданные слова!");
         builder.SetUrl("https://play.google.com/store/apps/details?id=" + Application.identifier);
 
         //Juts generating simple red texture with 32x32 resolution
         var sampleRedTexture = SA_IconManager.GetIcon(Color.red, 32, 32);
-        builder.AddImage(screenShot(640,1136));
+        builder.AddImage(screenShot());
 
         return builder;
     }
 
-	Texture2D screenShot( int resWidth, int resHeight) {
+	Texture2D screenShot() {
             GameObject SX = GameObject.Find ("SX");
             SX.GetComponent<SX_Ads> ().smartBanneHide ();
             Camera Camera = GameObject.Find ("Camera").GetComponent<Camera>();
-			RenderTexture rt = new RenderTexture(resWidth, resHeight, 24);
+			RenderTexture rt = new RenderTexture(Camera.pixelWidth, Camera.pixelHeight, 24);
 			Camera.targetTexture = rt;
-			Texture2D screenShot = new Texture2D(resWidth, resHeight, TextureFormat.RGB24, false);
+			Texture2D screenShot = new Texture2D(Camera.pixelWidth, Camera.pixelHeight, TextureFormat.RGB24, false);
 			Camera.Render();
 			RenderTexture.active = rt;
-			screenShot.ReadPixels(new Rect(0, 0, resWidth, resHeight), 0, 0);
+			screenShot.ReadPixels(new Rect(0, 0, Camera.pixelWidth, Camera.pixelHeight), 0, 0);
             Camera.targetTexture = null;
             SX.GetComponent<SX_Ads> ().smartBanneShow ();
 			return screenShot;
