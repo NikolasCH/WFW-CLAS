@@ -12,21 +12,449 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08d5455d6d21d4ea98ea2c10c4aab299, type: 3}
   m_Name: ISN_Settings
   m_EditorClassIdentifier: 
-  LastVersionCode: 
+  LastVersionCode: 2019.18
   Contacts: 0
   Photos: 0
   ReplayKit: 0
-  Social: 0
+  Social: 1
   AdSupport: 0
   AVKit: 0
   CoreLocation: 0
   AssetsLibrary: 0
-  AppDelegate: 0
-  UserNotifications: 0
+  AppDelegate: 1
+  UserNotifications: 1
   MediaPlayer: 0
   EventKit: 0
-  InAppProducts: []
-  Achievements: []
+  InAppProducts:
+  - m_productIdentifier: wfw4_p1
+    m_localizedDescription: 
+    m_localizedTitle: New Product
+    m_price: 0.99
+    m_priceLocale:
+      m_identifier: 
+      m_countryCode: US
+      m_languageCode: US
+      m_currencySymbol: $
+      m_currencyCode: USD
+    m_introductoryPrice:
+      m_price: 0.99
+      m_priceLocale:
+        m_identifier: 
+        m_countryCode: US
+        m_languageCode: US
+        m_currencySymbol: $
+        m_currencyCode: USD
+      m_paymentMode: 3
+      m_numberOfUnits: 0
+      m_subscriptionPeriod:
+        m_numberOfUnits: 0
+        m_unit: 0
+      m_localizedPrice: 
+    m_subscriptionPeriod:
+      m_numberOfUnits: 0
+      m_unit: 0
+    m_localizedPrice: 
+    m_editorData:
+      Texture: {fileID: 0}
+      PriceTier: 0
+      ProductType: 0
+  - m_productIdentifier: wfw4_p2
+    m_localizedDescription: 
+    m_localizedTitle: New Product
+    m_price: 0.99
+    m_priceLocale:
+      m_identifier: 
+      m_countryCode: US
+      m_languageCode: US
+      m_currencySymbol: $
+      m_currencyCode: USD
+    m_introductoryPrice:
+      m_price: 0.99
+      m_priceLocale:
+        m_identifier: 
+        m_countryCode: US
+        m_languageCode: US
+        m_currencySymbol: $
+        m_currencyCode: USD
+      m_paymentMode: 3
+      m_numberOfUnits: 0
+      m_subscriptionPeriod:
+        m_numberOfUnits: 0
+        m_unit: 0
+      m_localizedPrice: 
+    m_subscriptionPeriod:
+      m_numberOfUnits: 0
+      m_unit: 0
+    m_localizedPrice: 
+    m_editorData:
+      Texture: {fileID: 0}
+      PriceTier: 0
+      ProductType: 0
+  - m_productIdentifier: wfw4_p3
+    m_localizedDescription: 
+    m_localizedTitle: New Product
+    m_price: 0.99
+    m_priceLocale:
+      m_identifier: 
+      m_countryCode: US
+      m_languageCode: US
+      m_currencySymbol: $
+      m_currencyCode: USD
+    m_introductoryPrice:
+      m_price: 0.99
+      m_priceLocale:
+        m_identifier: 
+        m_countryCode: US
+        m_languageCode: US
+        m_currencySymbol: $
+        m_currencyCode: USD
+      m_paymentMode: 3
+      m_numberOfUnits: 0
+      m_subscriptionPeriod:
+        m_numberOfUnits: 0
+        m_unit: 0
+      m_localizedPrice: 
+    m_subscriptionPeriod:
+      m_numberOfUnits: 0
+      m_unit: 0
+    m_localizedPrice: 
+    m_editorData:
+      Texture: {fileID: 0}
+      PriceTier: 0
+      ProductType: 0
+  - m_productIdentifier: wfw4_p4
+    m_localizedDescription: 
+    m_localizedTitle: New Product
+    m_price: 0.99
+    m_priceLocale:
+      m_identifier: 
+      m_countryCode: US
+      m_languageCode: US
+      m_currencySymbol: $
+      m_currencyCode: USD
+    m_introductoryPrice:
+      m_price: 0.99
+      m_priceLocale:
+        m_identifier: 
+        m_countryCode: US
+        m_languageCode: US
+        m_currencySymbol: $
+        m_currencyCode: USD
+      m_paymentMode: 3
+      m_numberOfUnits: 0
+      m_subscriptionPeriod:
+        m_numberOfUnits: 0
+        m_unit: 0
+      m_localizedPrice: 
+    m_subscriptionPeriod:
+      m_numberOfUnits: 0
+      m_unit: 0
+    m_localizedPrice: 
+    m_editorData:
+      Texture: {fileID: 0}
+      PriceTier: 0
+      ProductType: 0
+  - m_productIdentifier: wfw4_p5
+    m_localizedDescription: 
+    m_localizedTitle: New Product
+    m_price: 0.99
+    m_priceLocale:
+      m_identifier: 
+      m_countryCode: US
+      m_languageCode: US
+      m_currencySymbol: $
+      m_currencyCode: USD
+    m_introductoryPrice:
+      m_price: 0.99
+      m_priceLocale:
+        m_identifier: 
+        m_countryCode: US
+        m_languageCode: US
+        m_currencySymbol: $
+        m_currencyCode: USD
+      m_paymentMode: 3
+      m_numberOfUnits: 0
+      m_subscriptionPeriod:
+        m_numberOfUnits: 0
+        m_unit: 0
+      m_localizedPrice: 
+    m_subscriptionPeriod:
+      m_numberOfUnits: 0
+      m_unit: 0
+    m_localizedPrice: 
+    m_editorData:
+      Texture: {fileID: 0}
+      PriceTier: 0
+      ProductType: 0
+  - m_productIdentifier: wfw4_page_1
+    m_localizedDescription: 
+    m_localizedTitle: New Product
+    m_price: 0.99
+    m_priceLocale:
+      m_identifier: 
+      m_countryCode: US
+      m_languageCode: US
+      m_currencySymbol: $
+      m_currencyCode: USD
+    m_introductoryPrice:
+      m_price: 0.99
+      m_priceLocale:
+        m_identifier: 
+        m_countryCode: US
+        m_languageCode: US
+        m_currencySymbol: $
+        m_currencyCode: USD
+      m_paymentMode: 3
+      m_numberOfUnits: 0
+      m_subscriptionPeriod:
+        m_numberOfUnits: 0
+        m_unit: 0
+      m_localizedPrice: 
+    m_subscriptionPeriod:
+      m_numberOfUnits: 0
+      m_unit: 0
+    m_localizedPrice: 
+    m_editorData:
+      Texture: {fileID: 0}
+      PriceTier: 0
+      ProductType: 0
+  - m_productIdentifier: wfw4_page_2
+    m_localizedDescription: 
+    m_localizedTitle: New Product
+    m_price: 0.99
+    m_priceLocale:
+      m_identifier: 
+      m_countryCode: US
+      m_languageCode: US
+      m_currencySymbol: $
+      m_currencyCode: USD
+    m_introductoryPrice:
+      m_price: 0.99
+      m_priceLocale:
+        m_identifier: 
+        m_countryCode: US
+        m_languageCode: US
+        m_currencySymbol: $
+        m_currencyCode: USD
+      m_paymentMode: 3
+      m_numberOfUnits: 0
+      m_subscriptionPeriod:
+        m_numberOfUnits: 0
+        m_unit: 0
+      m_localizedPrice: 
+    m_subscriptionPeriod:
+      m_numberOfUnits: 0
+      m_unit: 0
+    m_localizedPrice: 
+    m_editorData:
+      Texture: {fileID: 0}
+      PriceTier: 0
+      ProductType: 0
+  - m_productIdentifier: wfw4_page_3
+    m_localizedDescription: 
+    m_localizedTitle: New Product
+    m_price: 0.99
+    m_priceLocale:
+      m_identifier: 
+      m_countryCode: US
+      m_languageCode: US
+      m_currencySymbol: $
+      m_currencyCode: USD
+    m_introductoryPrice:
+      m_price: 0.99
+      m_priceLocale:
+        m_identifier: 
+        m_countryCode: US
+        m_languageCode: US
+        m_currencySymbol: $
+        m_currencyCode: USD
+      m_paymentMode: 3
+      m_numberOfUnits: 0
+      m_subscriptionPeriod:
+        m_numberOfUnits: 0
+        m_unit: 0
+      m_localizedPrice: 
+    m_subscriptionPeriod:
+      m_numberOfUnits: 0
+      m_unit: 0
+    m_localizedPrice: 
+    m_editorData:
+      Texture: {fileID: 0}
+      PriceTier: 0
+      ProductType: 0
+  - m_productIdentifier: wfw4_page_4
+    m_localizedDescription: 
+    m_localizedTitle: New Product
+    m_price: 0.99
+    m_priceLocale:
+      m_identifier: 
+      m_countryCode: US
+      m_languageCode: US
+      m_currencySymbol: $
+      m_currencyCode: USD
+    m_introductoryPrice:
+      m_price: 0.99
+      m_priceLocale:
+        m_identifier: 
+        m_countryCode: US
+        m_languageCode: US
+        m_currencySymbol: $
+        m_currencyCode: USD
+      m_paymentMode: 3
+      m_numberOfUnits: 0
+      m_subscriptionPeriod:
+        m_numberOfUnits: 0
+        m_unit: 0
+      m_localizedPrice: 
+    m_subscriptionPeriod:
+      m_numberOfUnits: 0
+      m_unit: 0
+    m_localizedPrice: 
+    m_editorData:
+      Texture: {fileID: 0}
+      PriceTier: 0
+      ProductType: 0
+  - m_productIdentifier: wfw4_page_5
+    m_localizedDescription: 
+    m_localizedTitle: New Product
+    m_price: 0.99
+    m_priceLocale:
+      m_identifier: 
+      m_countryCode: US
+      m_languageCode: US
+      m_currencySymbol: $
+      m_currencyCode: USD
+    m_introductoryPrice:
+      m_price: 0.99
+      m_priceLocale:
+        m_identifier: 
+        m_countryCode: US
+        m_languageCode: US
+        m_currencySymbol: $
+        m_currencyCode: USD
+      m_paymentMode: 3
+      m_numberOfUnits: 0
+      m_subscriptionPeriod:
+        m_numberOfUnits: 0
+        m_unit: 0
+      m_localizedPrice: 
+    m_subscriptionPeriod:
+      m_numberOfUnits: 0
+      m_unit: 0
+    m_localizedPrice: 
+    m_editorData:
+      Texture: {fileID: 0}
+      PriceTier: 0
+      ProductType: 1
+  - m_productIdentifier: wfw4_page_6
+    m_localizedDescription: 
+    m_localizedTitle: New Product
+    m_price: 0.99
+    m_priceLocale:
+      m_identifier: 
+      m_countryCode: US
+      m_languageCode: US
+      m_currencySymbol: $
+      m_currencyCode: USD
+    m_introductoryPrice:
+      m_price: 0.99
+      m_priceLocale:
+        m_identifier: 
+        m_countryCode: US
+        m_languageCode: US
+        m_currencySymbol: $
+        m_currencyCode: USD
+      m_paymentMode: 3
+      m_numberOfUnits: 0
+      m_subscriptionPeriod:
+        m_numberOfUnits: 0
+        m_unit: 0
+      m_localizedPrice: 
+    m_subscriptionPeriod:
+      m_numberOfUnits: 0
+      m_unit: 0
+    m_localizedPrice: 
+    m_editorData:
+      Texture: {fileID: 0}
+      PriceTier: 0
+      ProductType: 1
+  - m_productIdentifier: wfw4_page_7
+    m_localizedDescription: 
+    m_localizedTitle: New Product
+    m_price: 0.99
+    m_priceLocale:
+      m_identifier: 
+      m_countryCode: US
+      m_languageCode: US
+      m_currencySymbol: $
+      m_currencyCode: USD
+    m_introductoryPrice:
+      m_price: 0.99
+      m_priceLocale:
+        m_identifier: 
+        m_countryCode: US
+        m_languageCode: US
+        m_currencySymbol: $
+        m_currencyCode: USD
+      m_paymentMode: 3
+      m_numberOfUnits: 0
+      m_subscriptionPeriod:
+        m_numberOfUnits: 0
+        m_unit: 0
+      m_localizedPrice: 
+    m_subscriptionPeriod:
+      m_numberOfUnits: 0
+      m_unit: 0
+    m_localizedPrice: 
+    m_editorData:
+      Texture: {fileID: 0}
+      PriceTier: 0
+      ProductType: 1
+  Achievements:
+  - m_identifier: CgkIo9v11o8TEAIQAQ
+    m_percentComplete: 0
+    m_lastReportedDate: 0
+    m_name: 100+
+  - m_identifier: CgkIo9v11o8TEAIQAg
+    m_percentComplete: 0
+    m_lastReportedDate: 0
+    m_name: 200+
+  - m_identifier: CgkIo9v11o8TEAIQAw
+    m_percentComplete: 0
+    m_lastReportedDate: 0
+    m_name: 300+
+  - m_identifier: CgkIo9v11o8TEAIQBA
+    m_percentComplete: 0
+    m_lastReportedDate: 0
+    m_name: 400+
+  - m_identifier: CgkIo9v11o8TEAIQBQ
+    m_percentComplete: 0
+    m_lastReportedDate: 0
+    m_name: 500+
+  - m_identifier: CgkIo9v11o8TEAIQBw
+    m_percentComplete: 0
+    m_lastReportedDate: 0
+    m_name: 600+
+  - m_identifier: CgkIo9v11o8TEAIQCA
+    m_percentComplete: 0
+    m_lastReportedDate: 0
+    m_name: 1000+ coins
+  - m_identifier: CgkIo9v11o8TEAIQCQ
+    m_percentComplete: 0
+    m_lastReportedDate: 0
+    m_name: 2000+ coins
+  - m_identifier: CgkIo9v11o8TEAIQCg
+    m_percentComplete: 0
+    m_lastReportedDate: 0
+    m_name: 3000+ coins
+  - m_identifier: CgkIo9v11o8TEAIQCw
+    m_percentComplete: 0
+    m_lastReportedDate: 0
+    m_name: 4000+ coins
+  - m_identifier: CgkIo9v11o8TEAIQDA
+    m_percentComplete: 0
+    m_lastReportedDate: 0
+    m_name: 5000+ coins
   SavingAGame: 0
   ShortcutItems: []
   UrlTypes: []
@@ -38,8 +466,8 @@ MonoBehaviour:
   MicrophoneUsageDescriptionEnabled: 1
   ContactsUsageDescription: Please change 'Contacts Usage Description' with IOS Native
     Contacts Editor Settings
-  LocationAlwaysAndWhenInUseUsageDescription: Please change 'Location Always And When
-    In Use Usage Description' with IOS Native Core Location Editor Settings
+  LocationAlwaysAndWhenInUseUsageDescription: Please change 'Location Always And
+    When In Use Usage Description' with IOS Native Core Location Editor Settings
   LocationWhenInUseUsageDescription: Please change 'Location When In Use Usage Description'
     with IOS Native Core Location Editor Settings
   NSCalendarsUsageDescription: This app is require access your Calendar

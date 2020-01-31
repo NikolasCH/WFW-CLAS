@@ -13,14 +13,22 @@ public class SX_Sharing : MonoBehaviour
     public void Sharing()
     {
         var client = UM_SocialService.SharingClient;
-            client.SystemSharingDialog(MakeSharingBuilder(), PrintSharingResult);
-    // Start is called before the first f
+        client.SystemSharingDialog(MakeSharingBuilder(), PrintSharingResult);
+        // Start is called before the first f
     }
     private UM_ShareDialogBuilder MakeSharingBuilder()
     {
         var builder = new UM_ShareDialogBuilder();
         builder.SetText("Помоги, собрать загаданные слова!");
+
+#if UNITY_IOS
+        builder.SetUrl("https://itunes.apple.com/app/id" + Main.AppleId);
+#endif
+
+
+#if UNITY_ANDROID
         builder.SetUrl("https://play.google.com/store/apps/details?id=" + Application.identifier);
+#endif
 
         //Juts generating simple red texture with 32x32 resolution
         var sampleRedTexture = SA_IconManager.GetIcon(Color.red, 32, 32);
@@ -29,27 +37,31 @@ public class SX_Sharing : MonoBehaviour
         return builder;
     }
 
-	Texture2D screenShot() {
-            GameObject SX = GameObject.Find ("SX");
-            SX.GetComponent<SX_Ads> ().smartBanneHide ();
-            Camera Camera = GameObject.Find ("Camera").GetComponent<Camera>();
-			RenderTexture rt = new RenderTexture(Camera.pixelWidth, Camera.pixelHeight, 24);
-			Camera.targetTexture = rt;
-			Texture2D screenShot = new Texture2D(Camera.pixelWidth, Camera.pixelHeight, TextureFormat.RGB24, false);
-			Camera.Render();
-			RenderTexture.active = rt;
-			screenShot.ReadPixels(new Rect(0, 0, Camera.pixelWidth, Camera.pixelHeight), 0, 0);
-            Camera.targetTexture = null;
-            SX.GetComponent<SX_Ads> ().smartBanneShow ();
-			return screenShot;
-	}
-    
+    Texture2D screenShot()
+    {
+        GameObject SX = GameObject.Find("SX");
+        SX.GetComponent<SX_Ads>().smartBanneHide();
+        Camera Camera = GameObject.Find("Camera").GetComponent<Camera>();
+        RenderTexture rt = new RenderTexture(Camera.pixelWidth, Camera.pixelHeight, 24);
+        Camera.targetTexture = rt;
+        Texture2D screenShot = new Texture2D(Camera.pixelWidth, Camera.pixelHeight, TextureFormat.RGB24, false);
+        Camera.Render();
+        RenderTexture.active = rt;
+        screenShot.ReadPixels(new Rect(0, 0, Camera.pixelWidth, Camera.pixelHeight), 0, 0);
+        Camera.targetTexture = null;
+        SX.GetComponent<SX_Ads>().smartBanneShow();
+        return screenShot;
+    }
+
     public static void PrintSharingResult(SA_Result result)
     {
-        if(result.IsSucceeded) {
+        if (result.IsSucceeded)
+        {
             AN_FirebaseAnalytics.LogEvent("Sharing_Completed");
             Debug.Log("Sharing Completed.");
-        } else {
+        }
+        else
+        {
             Debug.Log("Failed to share: " + result.Error.FullMessage);
         }
     }

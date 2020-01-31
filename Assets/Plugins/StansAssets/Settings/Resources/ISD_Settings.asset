@@ -17,11 +17,79 @@ MonoBehaviour:
   EmbededFrameworks: []
   Libraries: []
   Flags: []
-  PlistVariables: []
-  VariableDictionary: []
+  PlistVariables:
+  - IsOpen: 1
+    IsListOpen: 1
+    Name: GADApplicationIdentifier
+    Type: 0
+    StringValue: ca-app-pub-4222284856413264~8782851651
+    IntegerValue: 0
+    FloatValue: 0
+    BooleanValue: 1
+    ChildrensIds: []
+  VariableDictionary:
+  - VariableValue:
+      IsOpen: 1
+      IsListOpen: 1
+      Name: 
+      Type: 0
+      StringValue: instagram
+      IntegerValue: 0
+      FloatValue: 0
+      BooleanValue: 1
+      ChildrensIds: []
+    uniqueIdKey: wkngFlHOpOFD3XcEbSP9
+  - VariableValue:
+      IsOpen: 1
+      IsListOpen: 1
+      Name: 
+      Type: 0
+      StringValue: whatsapp
+      IntegerValue: 0
+      FloatValue: 0
+      BooleanValue: 1
+      ChildrensIds: []
+    uniqueIdKey: alKWM8SD4vqlCWg9jeGq
+  - VariableValue:
+      IsOpen: 1
+      IsListOpen: 1
+      Name: 
+      Type: 0
+      StringValue: instagram
+      IntegerValue: 0
+      FloatValue: 0
+      BooleanValue: 1
+      ChildrensIds: []
+    uniqueIdKey: Vk1S1xQR6u5Wj2UrP3vm
+  - VariableValue:
+      IsOpen: 1
+      IsListOpen: 1
+      Name: 
+      Type: 0
+      StringValue: whatsapp
+      IntegerValue: 0
+      FloatValue: 0
+      BooleanValue: 1
+      ChildrensIds: []
+    uniqueIdKey: fZopUhoR84cOPjU39TAi
   Languages: []
   ShellScripts: []
-  m_buildProperties: []
+  m_buildProperties:
+  - m_name: ENABLE_BITCODE
+    m_value: NO
+    m_options:
+    - YES
+    - NO
+  - m_name: ENABLE_TESTABILITY
+    m_value: NO
+    m_options:
+    - YES
+    - NO
+  - m_name: GENERATE_PROFILING_CODE
+    m_value: NO
+    m_options:
+    - YES
+    - NO
   Capability:
     iCloud:
       Enabled: 0
@@ -29,10 +97,10 @@ MonoBehaviour:
       iCloudDocument: 0
       customContainers: []
     PushNotifications:
-      Enabled: 0
+      Enabled: 1
       development: 1
     GameCenter:
-      Enabled: 0
+      Enabled: 1
     Wallet:
       Enabled: 0
       passSubset: []
@@ -42,7 +110,7 @@ MonoBehaviour:
       Enabled: 0
       merchants: []
     InAppPurchase:
-      Enabled: 0
+      Enabled: 1
     Maps:
       Enabled: 0
       options: 

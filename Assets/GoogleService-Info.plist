@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>509148647402-rhhmurvnu9u9phsllcbcnrlmlj44bbl7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.509148647402-rhhmurvnu9u9phsllcbcnrlmlj44bbl7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAU_6noBxXcw1vMGAnmt8jwKXXv1tV4CU8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>509148647402</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.sayrex.wfw4vip</string>
+	<key>PROJECT_ID</key>
+	<string>words-from-word-classic</string>
+	<key>STORAGE_BUCKET</key>
+	<string>words-from-word-classic.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:509148647402:ios:94af6d8cedff887cb7ec93</string>
+	<key>DATABASE_URL</key>
+	<string>https://words-from-word-classic.firebaseio.com</string>
+</dict>
+</plist>

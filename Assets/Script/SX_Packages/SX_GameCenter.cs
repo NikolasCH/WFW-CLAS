@@ -33,7 +33,7 @@ public class SX_GameCenter : MonoBehaviour {
         var UM_client = UM_GameService.SignInClient;
 
         if (UM_client.PlayerInfo.State == UM_PlayerState.SignedIn) 
-            client.Unlock(achievementId, (result) => { if(result.IsSucceeded) {Debug.Log("Unlocked");}});
+            client.Unlock(achievementId, (result) => { if(result.IsSucceeded) { PlayerPrefs.SetInt(achievementId, 1); } });
 
         AN_FirebaseAnalytics.LogEvent("unlock_achievement");
     }

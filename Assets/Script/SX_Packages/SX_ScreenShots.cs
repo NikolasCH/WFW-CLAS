@@ -1,26 +1,41 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SX_ScreenShots : MonoBehaviour {
-	public int resWidth = 1136; 
+public class SX_ScreenShots : MonoBehaviour
+{
+	public int resWidth = 1136;
 	public int resHeight = 640;
-	
+
 	private bool takeHiResShot = false;
-	
-	public static string ScreenShotName(int width, int height) {
-		return string.Format("{0}/screen_{1}x{2}_{3}.png", 
-		                     Application.dataPath, 
-		                     width, height, 
-		                     System.DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss"));
+
+
+
+	void Start()
+	{
+		resWidth = GetComponent<Camera>().pixelWidth;
+
+		resHeight = GetComponent<Camera>().pixelHeight;
 	}
-	
-	public void TakeHiResShot() {
+
+
+	public static string ScreenShotName(int width, int height)
+	{
+		return string.Format("{0}/screen_{1}x{2}_{3}.png",
+							Application.dataPath,
+							width, height,
+							System.DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss"));
+	}
+
+	public void TakeHiResShot()
+	{
 		takeHiResShot = true;
 	}
-	
-	void LateUpdate() {
+
+	void LateUpdate()
+	{
 		takeHiResShot |= Input.GetKeyDown("k");
-		if (takeHiResShot) {
+		if (takeHiResShot)
+		{
 			RenderTexture rt = new RenderTexture(resWidth, resHeight, 24);
 			GetComponent<Camera>().targetTexture = rt;
 			Texture2D screenShot = new Texture2D(resWidth, resHeight, TextureFormat.RGB24, false);
@@ -37,7 +52,8 @@ public class SX_ScreenShots : MonoBehaviour {
 			takeHiResShot = false;
 		}
 
-		if (Input.GetKeyDown("j")) {
+		if (Input.GetKeyDown("j"))
+		{
 			PlayerPrefs.DeleteAll();
 			Debug.Log(string.Format("Delete All PlayerPrefs"));
 		}

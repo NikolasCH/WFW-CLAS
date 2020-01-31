@@ -12,6 +12,7 @@ public class Main : MonoBehaviour {
 	public static string[] letters;
 	public static string txt="w";
 	public static string word = "угадай";
+	public static string AppleId = "918073881";
 	public static string _word = "";
 	public static int next = 0;
 	public static int [] p =  new[]{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1};
@@ -223,50 +224,50 @@ public class Main : MonoBehaviour {
 
 		SX_GameCenter GameCenter = SX.GetComponent <SX_GameCenter>();
 
-		if (PlayerPrefs.GetInt("Star") >= 100 && !PlayerPrefs.HasKey ("achievement_100")) {
-			PlayerPrefs.SetInt ("achievement_100", 1);
+		if (PlayerPrefs.GetInt("Star") >= 100 && !PlayerPrefs.HasKey ("CgkIo9v11o8TEAIQAQ")) {
+			
 			GameCenter.unlockAchievement ("CgkIo9v11o8TEAIQAQ");
 		} 
 		
-		 if (PlayerPrefs.GetInt("Star") >= 200 && !PlayerPrefs.HasKey ("achievement_200")) {
-			PlayerPrefs.SetInt ("achievement_200", 1);
+		 if (PlayerPrefs.GetInt("Star") >= 200 && !PlayerPrefs.HasKey ("CgkIo9v11o8TEAIQAg")) {
+			
 			GameCenter.unlockAchievement ("CgkIo9v11o8TEAIQAg");
 		} 
 		
-		 if (PlayerPrefs.GetInt("Star") >= 300 && !PlayerPrefs.HasKey ("achievement_300")) {
-			PlayerPrefs.SetInt ("achievement_300", 1);
+		 if (PlayerPrefs.GetInt("Star") >= 300 && !PlayerPrefs.HasKey ("CgkIo9v11o8TEAIQAw")) {
+			
 			GameCenter.unlockAchievement ("CgkIo9v11o8TEAIQAw");
 		} 
 		
-		 if (PlayerPrefs.GetInt("Star") >= 400 && !PlayerPrefs.HasKey ("achievement_400")) {
-			PlayerPrefs.SetInt ("achievement_400", 1);
+		 if (PlayerPrefs.GetInt("Star") >= 400 && !PlayerPrefs.HasKey ("CgkIo9v11o8TEAIQBA")) {
+			
 			GameCenter.unlockAchievement ("CgkIo9v11o8TEAIQBA");
 		} 
 		
-		 if (PlayerPrefs.GetInt("Star") >= 500 && !PlayerPrefs.HasKey ("achievement_500")) {
-			PlayerPrefs.SetInt ("achievement_500", 1);
+		 if (PlayerPrefs.GetInt("Star") >= 500 && !PlayerPrefs.HasKey ("CgkIo9v11o8TEAIQBQ")) {
+			
 			GameCenter.unlockAchievement ("CgkIo9v11o8TEAIQBQ");
 		} 
 		
-		 if (PlayerPrefs.GetInt("Star") >= 600 && !PlayerPrefs.HasKey ("achievement_600")) {
-			PlayerPrefs.SetInt ("achievement_600", 1);
+		 if (PlayerPrefs.GetInt("Star") >= 600 && !PlayerPrefs.HasKey ("CgkIo9v11o8TEAIQBw")) {
+		
 			GameCenter.unlockAchievement ("CgkIo9v11o8TEAIQBw");
 		} 
 
-		if (PlayerPrefs.GetInt("Coin") >= 1000 && !PlayerPrefs.HasKey ("coin_1000")) {
-			PlayerPrefs.SetInt ("coin_1000", 1);
+		if (PlayerPrefs.GetInt("Coin") >= 1000 && !PlayerPrefs.HasKey ("CgkIo9v11o8TEAIQCA")) {
+			
 			GameCenter.unlockAchievement ("CgkIo9v11o8TEAIQCA");
-		} else if (PlayerPrefs.GetInt("Coin") >= 2000 && !PlayerPrefs.HasKey ("coin_2000")) {
-			PlayerPrefs.SetInt ("coin_2000", 1);
+		} else if (PlayerPrefs.GetInt("Coin") >= 2000 && !PlayerPrefs.HasKey ("CgkIo9v11o8TEAIQCQ")) {
+	
 			GameCenter.unlockAchievement ("CgkIo9v11o8TEAIQCQ");
-		} else if (PlayerPrefs.GetInt("Coin") >= 3000 && !PlayerPrefs.HasKey ("coin_3000")) {
-			PlayerPrefs.SetInt ("coin_3000", 1);
+		} else if (PlayerPrefs.GetInt("Coin") >= 3000 && !PlayerPrefs.HasKey ("CgkIo9v11o8TEAIQCg")) {
+		
 			GameCenter.unlockAchievement ("CgkIo9v11o8TEAIQCg");
-		}else if (PlayerPrefs.GetInt("Coin") >= 4000 && !PlayerPrefs.HasKey ("coin_4000")) {
-			PlayerPrefs.SetInt ("coin_4000", 1);
+		}else if (PlayerPrefs.GetInt("Coin") >= 4000 && !PlayerPrefs.HasKey ("CgkIo9v11o8TEAIQCw")) {
+	
 			GameCenter.unlockAchievement ("CgkIo9v11o8TEAIQCw");
-		} else if (PlayerPrefs.GetInt("Coin") >= 5000 && !PlayerPrefs.HasKey ("coin_5000")) {
-			PlayerPrefs.SetInt ("coin_5000", 1);
+		} else if (PlayerPrefs.GetInt("Coin") >= 5000 && !PlayerPrefs.HasKey ("CgkIo9v11o8TEAIQDA")) {
+	
 			GameCenter.unlockAchievement ("CgkIo9v11o8TEAIQDA");
 		} 
 	}
@@ -540,7 +541,15 @@ public class Main : MonoBehaviour {
 	public static void onBuy (string product)
 	{
 		Debug.Log("InApp " + product);
-		GameObject.Find("SX").GetComponent<SX_InApp_Android>().Purchase(product);
+
+#if UNITY_ANDROID
+        GameObject.Find("SX").GetComponent<SX_InApp_Android>().Purchase(product);
+
+#endif
+#if UNITY_IOS
+		GameObject.Find("SX").GetComponent<SX_InApp_iOS>().Purchase(product);
+
+#endif
 	}
 
 	public static void showMoreApps ()
