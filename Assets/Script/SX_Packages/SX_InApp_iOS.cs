@@ -65,4 +65,10 @@ using SA.iOS.Examples;
         ISN_SKPaymentQueue.AddPayment(ProductId);
         }
 
+                public void Restore()
+        {
+            ISN_SKPaymentQueue.RestoreCompletedTransactions();
+
+        }
+
     }

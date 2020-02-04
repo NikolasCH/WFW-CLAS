@@ -23,7 +23,12 @@ public class Buttons : Main {
 			sound = false;
             GetComponentInChildren<UISprite>().spriteName = "btn_sound_off";
 			AudioListener.volume = 0;
-		} 		
+		} 	
+
+		if (gameObject.name == "Restore" && PlayerPrefs.GetInt("Restore") == 1)
+		{
+			gameObject.SetActive(false);
+		}	
 	}
 
 	void OnPress (bool isDown)
@@ -148,6 +153,13 @@ public class Buttons : Main {
                     gameObject.GetComponentInChildren<UISprite>().spriteName = "btn_sound_on";
 					AudioListener.volume = 1;
 				}
+			}
+
+						
+			if (gameObject.name == "Restore" )
+			{
+				SX.SendMessage("Restore");
+				gameObject.SetActive(false);
 			}
 		}
 	}

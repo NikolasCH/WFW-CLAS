@@ -169,7 +169,7 @@ PlayerSettings:
     Android: com.sayrex.wfw4
     iPhone: com.sayrex.wfw4vip
   buildNumber:
-    iPhone: 3
+    iPhone: 6
   AndroidBundleVersionCode: 35
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 0
@@ -812,7 +812,8 @@ PlayerSettings:
   scriptingRuntimeVersion: 1
   gcIncremental: 0
   gcWBarrierValidation: 0
-  apiCompatibilityLevelPerPlatform: {}
+  apiCompatibilityLevelPerPlatform:
+    iPhone: 3
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: WsW

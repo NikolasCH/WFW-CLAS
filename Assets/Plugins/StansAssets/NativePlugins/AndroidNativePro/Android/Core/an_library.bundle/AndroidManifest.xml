@@ -5,22 +5,7 @@
     <provider android:name="androidx.core.content.FileProvider" android:authorities="com.sayrex.wfw4vip.fileprovider" android:exported="false" android:grantUriPermissions="true">
       <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths" />
     </provider>
-    <meta-data android:name="com.google.android.gms.games.APP_ID" android:value="@string/app_id" />
-    <service android:name="com.stansassets.android.app.notifications.AN_AlarmNotificationService" android:process=":externalProcess" />
-    <receiver android:name="com.stansassets.android.app.notifications.AN_AlarmNotificationTriggerReceiver" android:enabled="true" android:exported="true">
-      <intent-filter>
-        <action android:name="com.androidnative.local.intent.OPEN" />
-        <action android:name="android.intent.action.BOOT_COMPLETED" />
-        <category android:name="android.intent.category.DEFAULT" />
-      </intent-filter>
-    </receiver>
     <activity android:name="com.stansassets.core.utility.AN_ProxyActivity" android:launchMode="singleTask" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
     <activity android:name="com.stansassets.android.app.permissions.AN_PermissionsProxyActivity" android:launchMode="singleTask" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-    <activity android:name="com.stansassets.android.app.notifications.AN_NotificationLaunchActivity" android:launchMode="singleTask" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
   </application>
-  <uses-permission android:name="com.android.vending.BILLING" />
-  <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
-  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <uses-permission android:name="android.permission.WAKE_LOCK" />
 </manifest>

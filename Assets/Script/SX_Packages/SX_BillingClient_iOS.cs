@@ -241,6 +241,7 @@ using SA.iOS.Examples;
             if (result.IsSucceeded)
             {
                 Debug.Log("Restore Completed");
+                PlayerPrefs.SetInt("Restore", 1);
             }
             else
             {
